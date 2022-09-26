@@ -6,7 +6,7 @@
  * of a square matrix of integers.
  * @a: a square matrix of integers
  * @size: an input integer with the size of matrix
- * Return: Always 0.
+ * Return: Nothing
  */
 
 void print_diagsums(int *a, int size)
@@ -20,5 +20,4 @@ void print_diagsums(int *a, int size)
 		sum2 += a[i];
 
 	printf("%d, %d\n", sum1, sum2);
-	return (0);
 }
