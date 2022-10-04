@@ -45,4 +45,6 @@ char **strtow(char *str)
 			array[k++][m] = '\0';
 		}
 	}
+	array[k] = NULL;
+	return (array);
 }
