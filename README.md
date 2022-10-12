@@ -1,1 +1,1 @@
-statement in C programming
+Even more pointers, arrays and strings in C language
